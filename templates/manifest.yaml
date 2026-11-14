@@ -33,7 +33,7 @@ spec:
         tier: backend
     spec:
       containers:
-      - name: catalogue
+      - name: user
         image: "{{ .Values.deployment.imageRepo}}:{{ .Values.deployment.imageVersion }}"
         imagePullPolicy: Always
         envFrom:
